@@ -1,0 +1,34 @@
+.MainBIO li{
+    list-style-type: none;
+}
+
+  .socialImage img {
+    width: 150px;
+  }
+  
+  .socialIcons i {
+    font-size: 1.4rem;
+  }
+  
+  .fourthSection a {
+    color: $forthsec;
+    text-decoration: none;
+  }
+  
+  .upperfourthSection img, .lowerfourthSection img {
+    width: 50px;
+  }
+   
+  .MainBIO {
+    background-color: $mainbiobg;
+  }
+  
+  .MainBIO a {
+    text-decoration: none;
+    color: $mainbioa;
+    font-size: 0.9rem;
+  }
+  
+  .underBio {
+    padding: 50px 70px;
+  }

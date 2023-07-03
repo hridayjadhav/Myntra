@@ -1,0 +1,60 @@
+
+.navLogo img {
+    width: 50px;
+  }
+  
+  .navMenus {
+    height: 70px;
+  }
+  .navMenus a {
+    text-decoration: none;
+    color: $navmenuclr;
+    font-weight: 500;
+    padding: 22px 0px;
+    transition: 0.1s;
+  }
+  .navMenus a:hover {
+    border-bottom: 4px solid $navborderbtm;
+    color: $black;
+  }
+  
+  .navBar {
+    height: 40px;
+  }
+  
+  .navSearchBar {
+    position: relative;
+  }
+  .navSearchBar i {
+    position: absolute;
+    left: 10px;
+  }
+  input[type="search"] {
+    outline: none;
+    width: 500px;
+    height: 40px;
+    border: none;
+    border: 1px solid $silver;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.164);
+  }
+  
+  .iconNames {
+    height: 70px;
+  }
+  .iconNames a {
+    display: block;
+    padding: 10px 0px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: $color1;
+    margin-left: 40px;
+    transition: 0.2s;
+    &:hover{
+        border-bottom: 4px solid $color3;
+        color: $color1;
+    }
+  }
